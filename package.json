@@ -1,0 +1,29 @@
+{
+  "name": "36-jukebox_mini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "You've been hired to create the backend for a digital music service. The team's still working on getting access to tracks, but for now, you can get started on the playlist functionality.",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.22.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "keywords": []
+}
